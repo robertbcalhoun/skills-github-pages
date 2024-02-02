@@ -1,0 +1,16 @@
+---
+title: "Blog post try 2"
+date: 2024-02-02
+---
+
+It turns out I used `_post` instead of `_posts` while following the instructions. Since I spelled the directory name wrong, github actions didn't fire and the tutorial grinds to a halt. The github-actions based tutorial is pretty much the worst implementation of a walkthrough guide I've ever worked with.
+
+Reasons why it is terrible
+==========================
+
+Let's enumerate them:
+* You have to wait for github actions to do something.
+* The new instructions overwrite the previous instructions. Sure, we can go into git history, but, really?
+* You have to (or should, anyway) merge the changes github actions makes to master before you can do the next step in the branch
+
+It's an overly-complex way to write a tutorial; a single static webpage with all steps on one page would be much better.
